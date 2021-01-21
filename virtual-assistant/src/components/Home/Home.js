@@ -30,7 +30,7 @@ export default function Home() {
     btn.current.style.backgroundColor = "var(--secondary-color)";
     const rep = msg.replace("+", "%2B");
     const q = encodeURI(rep);
-    Axios.get(`http://127.0.0.1:5000/api?query=${q}`)
+    Axios.get(`https://google-search-api-v2.herokuapp.com/api?query=${q}`)
       .then((res) => {
         console.log(res.data);
         const arr = res.data.answers;
