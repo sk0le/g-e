@@ -24,11 +24,7 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-startec">Getting Started</a>
-      <ul>
-        <li><a href="#google-search-api">Google search API</a></li>
-        <li><a href="#virtual-assistant"></a>Virtual Assistant</li>
-      </ul>
+      <a href="#getting-started">Getting Started</a>
     </li>
     <li><a href="#contact">Contact</a></li>
   </ol>
