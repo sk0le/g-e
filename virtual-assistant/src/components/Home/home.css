@@ -1,0 +1,156 @@
+.home {
+  min-height: 500px;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.explanation {
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.text img {
+  height: 7rem;
+  margin: 2rem 0rem;
+}
+
+.buttons {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttons button {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.qna {
+  margin-top: 2rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.answer {
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+.lar {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.links h3 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.links a {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.related {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.related h3 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.related button {
+  background: none;
+  outline: none;
+  border: none;
+  color: var(--secondary-color);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .home {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .qna {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .answer {
+    margin-top: 1rem;
+  }
+
+  .lar {
+    flex-direction: column;
+  }
+
+  .related {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .home {
+    min-height: 600px;
+    height: 120vh;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .home {
+    min-height: 650px;
+    height: 140vh;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .home {
+    min-height: 700px;
+    height: 180vh;
+  }
+}
