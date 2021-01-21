@@ -4,8 +4,6 @@
   <p align="center">
     G.E. stands for general knowledge, it can answer your questions!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://g-e-virtual-assistant.netlify.app/">View Demo</a>
     ·
